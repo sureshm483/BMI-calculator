@@ -1,0 +1,11 @@
+hei=float(input('enter the height in meters: '))
+wei=float(input('enter the weight in kilograms: '))
+bmi=wei/(hei*hei)
+if(bmi<23.5):
+    print('underweight')
+elif(23.5<=bmi and bmi<=24.9):
+    print('normal weight')
+elif(25<=bmi and bmi<=29.9):
+    print('overweight')
+else:
+    print('data is insufficent')
